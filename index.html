@@ -7,16 +7,24 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Rock Paper Scissors😊</h1>
+    <h1>🎮Rock Paper Scissors😊</h1>
+    <div>
+      <h2>You</h2>
+      <p id="userScore">0</p>
+    </div>
+    <div>
+      <h2>Computer</h2>
+      <p id="computerScore">0</p>
+    </div>
     <div class="result">
-      <p>your choice: Rock</p>
-      <p>computer's choice: Rock</p>
-      <p>Result: draw 😊</p>
+      <p id="userChoice">your choice:- </p>
+      <p id="computerChoice">computer's choice:</p>
+      <p id="finalResult">Result😊:- </p>
     </div>
     <div class="options">
-      <button onclick="palyGame('rock')">🪨</button>
-      <button onclick="palyGame('paper')">📜</button>
-      <button onclick="playGame('scissor')">✂</button>
+      <button onclick="playGame('rock')">🪨</button>
+      <button onclick="playGame('paper')">📜</button>
+      <button onclick="playGame('scissor')">✂️</button>
     </div>
     <script src="main.js"></script>
   </body>
