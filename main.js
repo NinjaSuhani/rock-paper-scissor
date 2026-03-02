@@ -1,4 +1,4 @@
-let choices = ["rock", "paper", "scissors"];
+let choices = ["rock", "paper", "scissor"];
 let userScore = 0;
 let computerScore = 0;
 function playGame(userChoice) {
