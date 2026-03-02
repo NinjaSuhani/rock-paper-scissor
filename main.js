@@ -16,7 +16,7 @@ function playGame(userChoice) {
   } else if (
     (userChoice === "rock" && computerChoice === "scissor") ||
     (userChoice === "paper" && computerChoice === "rock") ||
-    (userChoice === "scissors" && computerChoice === "paper")
+    (userChoice === "scissor" && computerChoice === "paper")
   ) {
     userScore++;
     document.getElementById("finalResult").innerText = "Result: You Win 🎉";
